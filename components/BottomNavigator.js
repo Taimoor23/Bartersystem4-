@@ -17,9 +17,9 @@ export const BottomNavigator = createBottomTabNavigator({
    } ,
 
     Exchange:{
-   screen:ExchangeScreen,
+   screen:Exchange,
    navigationOptions:{
-   tabBarLabel:"ExchangeScreen"
+   tabBarLabel:"Exchange"
    }
 
    } 
