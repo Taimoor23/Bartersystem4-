@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer,createSwitchNavigator } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import {BottomNavigator} from './components/BottomNavigator';
-import LoginScreen from './screens/LoginScreen'
+import LoginScreen from './screens/welcomeScreen'
 
 
 export default function App() {
@@ -13,7 +13,7 @@ export default function App() {
 }
 
  const SwitchNavigator = createSwitchNavigator({
-     LoginScreen:LoginScreen,
+    WelcomeScreen:WelcomeScreen,
   BottomNavigator:BottomNavigator,
 
   
